@@ -1,0 +1,13 @@
+{
+  "name": "download_files",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mashu Kushibiki",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "description": ""
+}
