@@ -53,8 +53,7 @@ var i = 0
 
 // ファイル名001
 var req = http.get(url_1, function (res) {
-    console.log(url_1)
-        ++i
+    ++i
     var filename = fs.createWriteStream(datetime + '/00' + i + '.mp4')
     res.pipe(filename)
 
@@ -70,8 +69,7 @@ req.on('error', function (err) {
 
 // ファイル名002
 var req_2 = http.get(url_2, function (res) {
-    console.log(url_2)
-        ++i
+    ++i
     var filename = fs.createWriteStream(datetime + '/00' + i + '.mp4')
     res.pipe(filename)
 
@@ -87,8 +85,7 @@ req_2.on('error', function (err) {
 
 // ファイル名003
 var req = http.get(url_3, function (res) {
-    console.log(url_3)
-        ++i
+    ++i
     var filename = fs.createWriteStream(datetime + '/00' + i + '.mp4')
     res.pipe(filename)
 
